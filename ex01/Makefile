@@ -1,5 +1,5 @@
 NAME = zombieHorde
-CC = g++
+CC = clang++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 FILES = Zombie \
 		zombieHorde \

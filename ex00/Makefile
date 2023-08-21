@@ -1,5 +1,5 @@
-NAME = BraiiiiiiinnnzzzZ
-CC = g++
+NAME = Zombie
+CC = clang++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 FILES = Zombie \
 		newZombie \
