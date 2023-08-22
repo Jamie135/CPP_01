@@ -12,7 +12,6 @@ private:
 	bool		armed;
 public:
 	HumanB(std::string name);
-	~HumanB(void);
 	void	setWeapon(Weapon &weapon);
 	void	attack(void);
 };
