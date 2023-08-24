@@ -15,10 +15,10 @@ int main()
 	std::cout << std::endl;
 	harl.complain("something else");
 	std::cout << std::endl;
-	std::cout << "Make harl say something." << std::endl;
+	std::cout << "Make harl say something" << std::endl;
 	for (int i = 0; i < 5; i++)
 	{
-		std::cout << "input: ";
+		std::cout << "complain: ";
 		std::string input;
 		getline(std::cin, input);
 		if (std::cin.eof() == true)
