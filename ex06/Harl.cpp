@@ -42,13 +42,10 @@ void	Harl::complain(std::string level)
 	{
 		case(0):
 			(this->*ftPTR[0])();
-			// __attribute__ ((fallthrough));// otherwise linux won't compile
 		case(1):
 			(this->*ftPTR[1])();
-			// __attribute__ ((fallthrough));
 		case(2):
 			(this->*ftPTR[2])();
-			// __attribute__ ((fallthrough));
 		case(3):
 			(this->*ftPTR[3])();
 			break;
