@@ -8,10 +8,10 @@ int	main()
 	std::string	&stringREF = str;
 	std::cout << "Memory address:" << std::endl;
 	std::cout << &str << std::endl;
-	std::cout << stringPTR << std::endl;
+	std::cout << &stringPTR << std::endl;
 	std::cout << &stringREF << std::endl;
 	std::cout << "Values:" << std::endl;
 	std::cout << str << std::endl;
-	std::cout << *stringPTR << std::endl;
+	std::cout << stringPTR << std::endl;
 	std::cout << stringREF << std::endl;
 }
